@@ -4,7 +4,7 @@
 
 html,
 body {
-    background-color: #333;
+    background-color: #fff;
 }
 
 body {
@@ -16,14 +16,6 @@ body {
 
 .full-height {
     height: 100vh;
-}
-
-.bg-gray {
-    background-color: #ccc;
-}
-
-.bg-gray2 {
-    background-color: #ececec;
 }
 
 
@@ -141,6 +133,7 @@ body {
     font-weight: bold;
     line-height: normal;
     color: #fff;
+    text-transform: none;
 }
 
 .cover-container .btn-bookme {
@@ -158,19 +151,93 @@ body {
 
 
 /*
+ * About Story
+ */
+
+.about-story {
+    float: left;
+    width: 100%;
+}
+
+.about-story .story-title {
+    float: left;
+    width: 100%;
+    padding: 80px 40px;
+}
+
+.about-story .story-title h4 {
+    letter-spacing: 0.5em;
+    line-height: 1.2em;
+    color: #8C8C8C;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about-story .story-about,
+.about-story .story-description {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.about-story .story-description {
+    padding: 14rem 2.5rem 0;
+}
+
+.about-story .story-description svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0.13;
+}
+
+.about-story .story-description h3 {
+    font-size: 34px;
+    font-weight: bold;
+    color: #000;
+}
+
+.about-story .story-description p {
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+
+/*
+ * Join Team
+ */
+
+.join-team {
+    background-image: url(assets/image/Picture4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 490px;
+    float: left;
+    width: 100%;
+}
+
+
+/*
  * Footer
  */
 
 .section-footer {
     background-image: url(assets/image/footer.jpg);
-    background-color: rgba(0, 0, 0, .5);
-    background-blend-mode: overlay;
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     height: 400px;
     padding: 4rem 5rem;
+    float: left;
+    width: 100%;
 }
 
 .section-footer .footer-mail a,
