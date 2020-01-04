@@ -5,6 +5,7 @@
 html,
 body {
     background-color: #fff;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -24,7 +25,15 @@ body {
  */
 
 .masthead {
-    margin-bottom: 2rem;
+    position: fixed;
+    top: 0;
+    padding: 1rem 3rem;
+    width: 100%;
+    transition: top .85s ease-in-out;
+}
+
+.masthead-hide {
+    top: -100%;
 }
 
 .masthead-brand {
@@ -61,6 +70,7 @@ body {
     color: #fff;
     background-color: transparent;
     transition: color 0.4s ease 0s;
+    cursor: pointer;
 }
 
 .nav-masthead .nav-link:hover,
@@ -108,274 +118,15 @@ body {
 }
 
 
-/*
- * Cover
- */
-
-.cover-container {
-    background-image: url(assets/image/Picture1.png);
-    background-color: rgba(0, 0, 0, .5);
-    background-blend-mode: overlay;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
-.cover-container .middle-content {
-    max-width: 520px;
-    width: 100%;
-}
-
-.cover-container h1 {
-    font-size: 45px;
-    font-weight: bold;
-    line-height: normal;
-    color: #fff;
-    text-transform: none;
-}
-
-.cover-container .btn-bookme {
-    background-color: rgba(0, 0, 0, 0.51);
-    border: 2px solid #9BCB6C;
-    cursor: pointer;
-    font-size: 1.25rem;
-    font-weight: 800;
-    color: #9BCB6C;
-    margin-top: 40px;
-    border-radius: 0;
-    width: 270px;
-    height: 52px;
-}
-
-
-/*
- * About Story
- */
-
-.about-story {
-    float: left;
-    width: 100%;
-}
-
-.about-story .story-title {
-    float: left;
-    width: 100%;
-    padding: 80px 40px;
-}
-
-.about-story .story-title h4 {
-    letter-spacing: 0.5em;
-    line-height: 1.2em;
-    color: #8C8C8C;
-    font-size: 1.5rem;
-    margin: 0;
-    font-weight: 800;
-}
-
-.about-story .story-about,
-.about-story .story-description {
-    float: left;
-    width: 50%;
-    position: relative;
-}
-
-.about-story .story-description {
-    padding: 14rem 2.5rem 0;
-}
-
-.about-story .story-description svg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    opacity: 0.13;
-}
-
-.about-story .story-description h3 {
-    font-size: 2.125rem;
-    font-weight: bold;
-    color: #000;
-}
-
-.about-story .story-description p {
-    font-size: 1rem;
-    font-weight: 600;
-    color: #000;
-    text-align: right;
-    margin-bottom: 30px;
-}
-
-.about-story.story_desc .story-description p {
-    font-size: 1.25rem;
-}
-
-.about-story.story_desc .story-description svg {
-    transform: scale(0.9) skew(45deg, 0);
-}
-
-.about-story.story_desc .story-description .btn-green {
-    background-color: #9bcb6c;
-    border: 0;
-    cursor: pointer;
-    color: #000;
-    font-size: 1.25rem;
-    border-radius: 0;
-    font-weight: 800;
-    padding: 6px 20px;
-    height: 50px;
-    line-height: 40px;
-    width: 240px;
-    box-shadow: none;
-}
-
-
-/*
- * Join Team
- */
-
-.join-team {
-    background-image: url(assets/image/Picture4.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 490px;
-    float: left;
-    width: 100%;
-    position: relative;
-}
-
-.join-team svg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-18rem, -10rem);
-}
-
-.subscription-email {
-    background-image: url(assets/image/footer.jpg);
-    background-color: rgba(0, 0, 0, .5);
-    background-blend-mode: overlay;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 4rem 5rem;
-    float: left;
-    width: 100%;
-}
-
-.subscription-email h2 {
-    font-size: 1.5rem;
-    padding: 0;
-    margin-bottom: 1.2rem;
-    line-height: 1.5;
-}
-
-.subscription-email .input-group {
-    max-width: 450px;
-    margin: 0 auto;
-}
-
-.subscription-email .input-group .form-control {
-    height: 50px;
-    border-radius: 0;
-    border: 0;
-    font-weight: bold;
-    box-shadow: none;
-    z-index: 0;
-}
-
-.subscription-email .input-group .btn-green {
-    background-color: #9bcb6c;
-    border: 0;
-    cursor: pointer;
-    color: #000;
-    font-size: 1.25rem;
-    border-radius: 0;
-    font-weight: 800;
-    padding: 6px 20px;
-    box-shadow: none;
-    z-index: 0;
-}
-
-
-/*
- * Speaking
- */
-
-.speaking-section {
-    background-color: #f3f3f3;
-    float: left;
-    width: 100%;
-    padding: 1.5rem 0;
-}
-
-.speaking-section .section-heading {
-    padding: 48px;
-    float: left;
-    width: 100%;
-}
-
-.speaking-section .section-heading h3 {
-    letter-spacing: 0.5em;
-    color: #8C8C8C;
-    font-size: 1.25rem;
-    margin: 0;
-    font-weight: 800;
-}
-
-.speaking-section .section-heading p {
-    color: #000;
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin: 40px 0 0;
-    text-align: justify;
-}
-
-.speaking-section .section-heading .text-video {
-    color: #000;
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin: 0 0 1rem;
-    text-align: center;
-}
-
-.speaking-section .section-heading .btn-green {
-    background-color: #9bcb6c;
-    border: 0;
-    cursor: pointer;
-    color: #000;
-    font-size: 1.25rem;
-    border-radius: 0;
-    font-weight: 800;
-    padding: 6px 20px;
-    height: 50px;
-    line-height: 40px;
-    width: 240px;
-    box-shadow: none;
-}
-
-.featured-section {
-    border-top: 4px solid #ccc;
-    margin-top: 3rem;
-    padding-top: 2rem;
-}
-
-.featured-section h2 {
-    letter-spacing: 0.5em;
-    color: #8C8C8C;
-    font-size: 1.25rem;
-    margin: 0;
-    font-weight: 800;
-    margin-bottom: 2rem;
-}
+/* Silck Slier */
 
 .slick-initialized .slick-slide {
     outline: none;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
 }
 
 

@@ -1,0 +1,155 @@
+/*
+ * Booking
+ */
+
+.cover-container {
+    background-image: url(../../assets/image/footer.jpg);
+    background-color: rgba(0, 0, 0, .7);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 23rem;
+    padding-top: 10rem;
+    padding: 10rem 48px 3rem;
+}
+
+.cover-container h1 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: normal;
+    color: #fff;
+    text-transform: none;
+}
+
+
+/*
+ * Contact
+ */
+
+.contact-section {
+    background-color: #f3f3f3;
+    float: left;
+    width: 100%;
+    padding: 1.5rem 0;
+}
+
+.contact-section .section-heading {
+    padding: 48px;
+    float: left;
+    width: 100%;
+}
+
+.contact-section .section-heading h3 {
+    letter-spacing: 0.5em;
+    color: #8C8C8C;
+    font-size: 1.25rem;
+    margin: 0;
+    font-weight: 800;
+}
+
+.contact-section .section-heading .form-control {
+    border-radius: 0;
+    background-color: #f3f3f3;
+    color: #000;
+    border: 0;
+    border-bottom: 4px solid #bada55;
+    padding: 3px;
+    margin: 0;
+    text-overflow: ellipsis;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    resize: none;
+}
+
+.contact-section .section-heading .btn-green {
+    background-color: #9bcb6c;
+    border: 0;
+    cursor: pointer;
+    color: #000;
+    font-size: 1.5rem;
+    border-radius: 0;
+    font-weight: 800;
+    padding: 6px 20px;
+    height: 50px;
+    line-height: 40px;
+    width: 240px;
+    box-shadow: none;
+    margin-top: 1rem;
+}
+
+.section-testimonial {
+    float: left;
+    width: 100%;
+    padding: 0 48px;
+}
+
+.section-testimonial .section-heading {
+    border-top: 4px solid #ccc;
+    padding: 4rem 0;
+}
+
+.section-testimonial .section-heading h2 {
+    letter-spacing: 0.5em;
+    color: #8C8C8C;
+    font-size: 1.25rem;
+    margin: 0;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+
+/* Bubble Slider */
+
+.bubble blockquote {
+    margin: 10px 10px 0;
+    background: #fff;
+    padding: 60px;
+    position: relative;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.25em;
+    color: #000;
+}
+
+.bubble blockquote:before,
+.bubble blockquote:after {
+    content: "\201C";
+    position: absolute;
+    font-size: 80px;
+    padding: 10px;
+    line-height: 1;
+    color: #000;
+}
+
+.bubble blockquote:before {
+    top: 0;
+    left: 10px;
+}
+
+.bubble blockquote:after {
+    content: "\201D";
+    right: 10px;
+    bottom: -.5em;
+}
+
+.bubble div {
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #fff;
+    margin: 0 0 0 60px;
+    margin-bottom: 10px;
+}
+
+.bubble cite {
+    padding-left: 20px;
+    font-size: 1.25em;
+    color: #000;
+}
