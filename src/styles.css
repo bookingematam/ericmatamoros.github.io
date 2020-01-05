@@ -134,6 +134,10 @@ body {
  * Footer
  */
 
+.mobile-ui {
+    display: none;
+}
+
 .section-footer {
     background-image: url(assets/image/footer.jpg);
     background-color: rgba(0, 0, 0, .5);
@@ -196,4 +200,91 @@ body {
     color: #fff;
     margin-bottom: 0;
     margin-top: 4rem;
+}
+
+@media screen and (max-width: 991px) {
+    .section-footer {
+        padding: 2.5rem;
+        height: auto;
+    }
+    .section-footer .footer-mail a,
+    .section-footer .footer-mail a:hover,
+    .section-footer .footer-mail a:focus {
+        font-size: 2rem;
+    }
+    .section-footer .footer-mail svg {
+        height: 100px;
+        width: 50px;
+    }
+    .section-footer .footer-mail ul li {
+        padding-top: 5px 15px 0 0;
+    }
+    .section-footer .footer-mail ul li a,
+    .section-footer .footer-mail ul li a:hover,
+    .section-footer .footer-mail ul li a:focus {
+        font-size: 1.5rem;
+    }
+    .section-footer .footer-bottom {
+        display: none;
+    }
+    .section-footer .footer-bottom.mobile-ui {
+        display: block;
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .section-footer .footer-right-text {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .masthead {
+        padding: 1rem;
+    }
+    .list-social {
+        width: 100%;
+        margin: 0.5rem 0;
+        margin-left: auto !important;
+        text-align: center;
+    }
+    .list-social li a,
+    .list-social li a:hover,
+    .list-social li a:focus {
+        font-size: 20px;
+        line-height: normal;
+    }
+    .section-footer {
+        padding: 1rem;
+        height: auto;
+    }
+    .section-footer .footer-mail a,
+    .section-footer .footer-mail a:hover,
+    .section-footer .footer-mail a:focus {
+        font-size: 1.3rem;
+    }
+    .section-footer .footer-mail svg {
+        height: 100px;
+        width: 50px;
+    }
+    .section-footer .footer-mail ul li {
+        padding-top: 5px 15px 0 0;
+    }
+    .section-footer .footer-mail ul li a,
+    .section-footer .footer-mail ul li a:hover,
+    .section-footer .footer-mail ul li a:focus {
+        font-size: 1.25rem;
+    }
+    .section-footer .footer-bottom {
+        display: none;
+    }
+    .section-footer .footer-bottom.mobile-ui {
+        display: block;
+        margin-top: 3rem;
+    }
+    .slick-prev,
+    .slick-next,
+    .slick-dots {
+        display: none !important;
+    }
 }

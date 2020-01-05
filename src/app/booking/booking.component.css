@@ -153,3 +153,19 @@
     font-size: 1.25em;
     color: #000;
 }
+
+@media screen and (max-width: 767px) {
+    .cover-container {
+        height: auto;
+        padding: 15rem 18px 3rem;
+    }
+    .cover-container h1 {
+        font-size: 33px;
+    }
+    .section-testimonial {
+        padding: 0 1.5rem;
+    }
+    .contact-section .section-heading {
+        padding: 4rem 1.5rem;
+    }
+}

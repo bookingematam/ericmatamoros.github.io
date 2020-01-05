@@ -60,3 +60,22 @@
     object-fit: cover;
     object-position: center;
 }
+
+@media screen and (max-width: 991px) {
+    .cover-container .description {
+        padding: 1rem;
+        margin-top: 3rem;
+    }
+    .cover-container .description img {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover-container {
+        padding: 15rem 20px 3rem;
+    }
+    .cover-container h1 {
+        font-size: 40px;
+    }
+}
