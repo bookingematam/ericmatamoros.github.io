@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, LOCALE_ID, Inject } from '@angular/core';
 import { Router } from "@angular/router";
 
 declare var $: any;
@@ -12,7 +12,13 @@ declare var $: any;
 export class AppComponent {
   title = 'Eric Matamoros';
 
+  languageList = [
+    { code: 'en', label: 'English' },
+    { code: 'es', label: 'Spanish' }
+  ];
+
   constructor(
+    @Inject(LOCALE_ID) protected localeId: string,
     public router: Router
   ) {}
 
