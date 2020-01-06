@@ -84,7 +84,7 @@
       </trans-unit>
       <trans-unit id="d8479f6663c4995f2ad401a075732bf19263f5df" datatype="html">
         <source>There is only one life<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>You decide what you want to do<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Act now<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Help others<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Change the world</source>
-        <target>Solo existe una vida<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Tú decides qué quieres hacer<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>áctúa ahora<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Ayuda a los otros<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Cambia el mundo</target>
+        <target>Solo existe una vida<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Tú decides qué quieres hacer<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Actúa ahora<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Ayuda a los otros<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Cambia el mundo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">3</context>
@@ -116,7 +116,7 @@
       </trans-unit>
       <trans-unit id="1f6495c3ec89172214e7f5ac02746e41c17ccc35" datatype="html">
         <source>“Eric and his project Biop AI Ltd. have changed the way cancer is diagnosed towards a better society.”</source>
-        <target>“Eric y su Proyecto Biop AI han cambiado el modo en el que el cancer es diagnosticado hacia una sociedad mejor.”</target>
+        <target>“Eric y su Proyecto Biop AI han cambiado el modo en el que el cáncer es diagnosticado hacia una sociedad mejor.”</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">20</context>
@@ -133,7 +133,7 @@
       <trans-unit id="d063431c0920a8dc64e632221654e119b2749c83" datatype="html">
         <source>“Eric empowers others to change the world through his uniqueness and wise words. He transmits the passion on what he does and has helped many youngsters to find their way. As he says, there is only one life. You decide to die in a 9-5 full-time
             job or live doing what you love.”</source>
-        <target>“Eric entusiasma a otros a cambiar el mundo a través de su identidad y sus sabias palabras. Transmite passion en lo que hace y lo que dice y definitivamente ha ayudado a muchos jóvenes a encontrar su camino. 
+        <target>“Eric entusiasma a otros a cambiar el mundo a través de su identidad y sus sabias palabras. Transmite pasión en lo que hace y lo que dice y definitivamente ha ayudado a muchos jóvenes a encontrar su camino. 
         Tal y como dice, solo hay una vida. Tu decides si quieres morir en una jornada 9-5 a tiempo completo o vivir haciendo lo que amas.”</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
