@@ -50,6 +50,38 @@
           <context context-type="linenumber">53</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="b6cf141b20d8806ba5e75de27026d9359410d667" datatype="html">
+        <source>Book Eric Matamoros for<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Your Next Event</source>
+        <target>Book Eric Matamoros for<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Your Next Event</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/booking/booking.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fdbe66d92e5382bb70088c9e8ea6baf47b83d7b6" datatype="html">
+        <source>CONTACT</source>
+        <target>CONTACT</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/booking/booking.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2c5ff8fa9c9aaec93f97e37c9a0edcd797194573" datatype="html">
+        <source>Send</source>
+        <target>Send</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/booking/booking.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d7cafdd83cc7a5035c2eaed965037410f701d423" datatype="html">
+        <source>TESTIMONIALS</source>
+        <target>TESTIMONIALS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/booking/booking.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="d8479f6663c4995f2ad401a075732bf19263f5df" datatype="html">
         <source>There is only one life<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>You decide what you want to do<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Act now<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Help others<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Change the world</source>
         <target>There is only one life<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>You decide what you want to do<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Act now<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Help others<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Change the world</target>
