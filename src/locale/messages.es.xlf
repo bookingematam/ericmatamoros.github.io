@@ -18,6 +18,30 @@
           <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="4ed5d87a2cdd3898e9173cdf2c963d3de8a8f167" datatype="html">
+        <source>My Story</source>
+        <target>Mi historia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02f399381248666e16fb629806d4541b34697933" datatype="html">
+        <source>Speaking</source>
+        <target>Speaking</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="904e270c5fabed96e2644801ed4b4da07451d43d" datatype="html">
+        <source>Testimonial</source>
+        <target>Testimonios</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="366ca0bec950e88ec3f140f5efa5c1639dd84325" datatype="html">
         <source>&quot;Are you tired of living the same day for all your life? Just contact me&quot;</source>
         <target>"¿Cansado de vivir el mismo día por el resto de tu vida? Contáctame"</target>
@@ -28,7 +52,7 @@
       </trans-unit>
       <trans-unit id="d8479f6663c4995f2ad401a075732bf19263f5df" datatype="html">
         <source>There is only one life<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>You decide what you want to do<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Act now<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Help others<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Change the world</source>
-        <target>Solo existe una vida<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Tú decides qué quieres<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>hacer actúa ahora<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Ayuda a los otros<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Cambia el mundo</target>
+        <target>Solo existe una vida<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Tú decides qué quieres hacer<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>actúa ahora<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Ayuda a los otros<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Cambia el mundo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">3</context>
@@ -36,7 +60,7 @@
       </trans-unit>
       <trans-unit id="a4206f27c00a00bd60608216c353f0bb16eaf459" datatype="html">
         <source>Book Me</source>
-        <target>Book Me</target>
+        <target>Reserva</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">4</context>
@@ -52,7 +76,7 @@
       </trans-unit>
       <trans-unit id="fdff8b244aadc4fe7e185da608690978f07e6172" datatype="html">
         <source>MY STORY</source>
-        <target>STORY</target>
+        <target>Mi historia</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">12</context>
@@ -108,7 +132,7 @@
       </trans-unit>
       <trans-unit id="9b934c17e6025b2c09a858c80c3f58c0943cf6a8" datatype="html">
         <source>Read More</source>
-        <target>Read More</target>
+        <target>Saber más</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">37</context>

@@ -16,11 +16,32 @@
           <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="4ed5d87a2cdd3898e9173cdf2c963d3de8a8f167" datatype="html">
+        <source>My Story</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02f399381248666e16fb629806d4541b34697933" datatype="html">
+        <source>Speaking</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="904e270c5fabed96e2644801ed4b4da07451d43d" datatype="html">
+        <source>Testimonial</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="366ca0bec950e88ec3f140f5efa5c1639dd84325" datatype="html">
         <source>&quot;Are you tired of living the same day for all your life? Just contact me&quot;</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">53</context>
+          <context context-type="linenumber">55</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d8479f6663c4995f2ad401a075732bf19263f5df" datatype="html">

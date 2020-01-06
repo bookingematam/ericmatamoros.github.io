@@ -108,6 +108,11 @@ body {
     box-shadow: none;
 }
 
+.list-social li.dropdown a {
+    color: #16181b;
+    font-size: 1rem;
+}
+
 @media (min-width: 48em) {
     .masthead-brand {
         float: left;
