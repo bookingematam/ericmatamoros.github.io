@@ -4,24 +4,23 @@
             <svg preserveAspectRatio="xMidYMid meet" data-bbox="0 0 125 264" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125 264" height="44" width="20" data-type="color" role="img">
                 <g><path fill="#9bcb6c" d="M104.167 0H125L20.833 264H0L104.167 0z" fill-rule="evenodd" data-color="1"></path></g>
             </svg>
-            <a href="/" target="_self">Eric<br/>Matamoros</a>
-            <span>Speaker,<br/>Scientist & Writer</span>
+            <a href="/" target="_self" i18n>Eric<br/>Matamoros</a>
+            <span i18n>Speaker,<br/>Scientist & Writer</span>
         </h3>
-        <div class="dropdown" style="float: right;margin-left: 10px;">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" 
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                {{ languageName }}
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="/en/">English</a>
-                <a class="dropdown-item" href="/es/">Spanish</a>
-            </div>
-        </div>
         <ul class="nav nav-masthead list-social ml-5">
             <li><a href="https://www.linkedin.com/in/ericmatamoros/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
             <li><a href="https://www.facebook.com/eric.matamorosmorales" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
             <li><a href="https://twitter.com/ericmatamoros99" target="_blank"><i class="fab fa-twitter"></i></a></li>
             <li><a href="https://www.instagram.com/ericmatamoros/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li class="dropdown mr-0">
+                <button class="btn btn-secondary btn-sm dropdown-toggle ml-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {{ languageName }}
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="/en/">English</a>
+                    <a class="dropdown-item" href="/es/">Spanish</a>
+                </div>
+            </li>
         </ul>
         <nav class="nav nav-masthead justify-content-center">
             <a class="nav-link active" [routerLink]="['/']">Home</a>
@@ -53,7 +52,7 @@
             <p class="footer-bottom">&copy; 2019 by Eric Matamoros.</p>
         </div>
         <div class="col-12 col-lg-6">
-            <h2 class="footer-right-text">"Are you tired of living the same day for all your life? Just contact me"</h2>
+            <h2 class="footer-right-text" i18n>"Are you tired of living the same day for all your life? Just contact me"</h2>
 
             <p class="footer-bottom mobile-ui">&copy; 2019 by Eric Matamoros.</p>
         </div>

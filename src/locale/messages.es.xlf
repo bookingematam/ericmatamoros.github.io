@@ -2,20 +2,270 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="593095e8110633708099f616de9257751c57ff10" datatype="html">
+        <source>Eric<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Matamoros</source>
+        <target>Eric<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Matamoros</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9c1a66c2bd522d86b1e391d1502762af65177459" datatype="html">
+        <source>Speaker,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Scientist &amp; Writer</source>
+        <target>Orador,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Científico y Escritor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="366ca0bec950e88ec3f140f5efa5c1639dd84325" datatype="html">
+        <source>&quot;Are you tired of living the same day for all your life? Just contact me&quot;</source>
+        <target>"¿Cansado de vivir el mismo día por el resto de tu vida? Contáctame"</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="d8479f6663c4995f2ad401a075732bf19263f5df" datatype="html">
         <source>There is only one life<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>You decide what you want to do<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Act now<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Help others<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Change the world</source>
-        <target>Solo hay una vida<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>You decide what you want to do<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Act now<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Help others<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Change the world</target>
+        <target>Solo existe una vida<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Tú decides qué quieres<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>hacer actúa ahora<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Ayuda a los otros<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Cambia el mundo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="a4206f27c00a00bd60608216c353f0bb16eaf459" datatype="html">
+        <source>Book Me</source>
+        <target>Book Me</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="fdff8b244aadc4fe7e185da608690978f07e6172" datatype="html">
-        <source>My Story</source>
-        <target>MI HISTORIA</target>
+        <source>MY STORY</source>
+        <target>STORY</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1f6495c3ec89172214e7f5ac02746e41c17ccc35" datatype="html">
+        <source>“Eric and his project Biop AI Ltd. have changed the way cancer is diagnosed towards a better society.”</source>
+        <target>“Eric y su Proyecto Biop AI han cambiado el modo en el que el cancer es diagnosticado hacia una sociedad mejor.”</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f1d13075b69098f0ecd8f36805f2e5fa3d6c3142" datatype="html">
+        <source>President of Egypt – Abdel Fattah el-Sisi</source>
+        <target>Presidente de Egipto – Abdel Fattah el-Sisi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d063431c0920a8dc64e632221654e119b2749c83" datatype="html">
+        <source>“Eric empowers others to change the world through his uniqueness and wise words. He transmits the passion on what he does and has helped many youngsters to find their way. As he says, there is only one life. You decide to die in a 9-5 full-time
+            job or live doing what you love.”</source>
+        <target>“Eric entusiasma a otros a cambiar el mundo a través de su identidad y sus sabias palabras. Transmite passion en lo que hace y lo que dice y definitivamente ha ayudado a muchos jóvenes a encontrar su camino. 
+        Tal y como dice, solo hay una vida. Tu decides si quieres morir en una jornada 9-5 a tiempo completo o vivir haciendo lo que amas.”</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f7e80c7cbca2c87c3207578b36842719acf7d608" datatype="html">
+        <source>Xavier Testar – Teacher at University of Barcelona</source>
+        <target>Xavier Testar – Profesor a la Universidad de Barcelona</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e8a14c235ca0aebfa70f9681c59e96651b03e6e2" datatype="html">
+        <source>I suffered from bullying at high school because I was overweight. Depression and video games were my only way of exit of the real world. I started Biop AI Ltd. as a way to fulfil one of my main dreams, save my aunt who is suffering from Stage
+            IV Metastatic Lung Cancer. During this 5-year journey I understood that there is only 1 life to spend such amount of time on getting prepared to be ready for a 9-5 job that won´t fill any little of your happiness. Live or die. Now I am the
+            co-founder of Biop AI and Nutrilieve as well as an international speaker with the aim to change the rules, to help the youngsters and corporates to step outside of the routine and take action by doing things that motivate them and fill the
+            happiness tank.
+        </source>
+        <target>Sufrí acoso en el instituto por mi sobrepeso. La depresión y los videojuegos eran mi única vía de escape del mundo real. Empecé Biop AI Ltd. como una manera de perseguir uno de mis grandes sueños, curar a mi abuela la cual sufre de estadio IV metastático de cáncer de pulmón. Durante este periodo de 5 años he aprendido que solo hay 1 vida como para perder tanto tiempo preparándose para tener un trabajo de 9-5 que en verdad no contribuirá para nada a nuestra felicidad. Vive o Muere, tú decides.
+                Ahora mismo soy el co-fundador de Biop AI y Nutrilieve a la vez que un orador internacional el cual pretende cambiar las reglas y ayudar a los empleados y a los jóvenes a optimizar sus recursos y buscar más allá de la rutina mediante acciones que les motiven y llenen su tanque de felicidad.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9b934c17e6025b2c09a858c80c3f58c0943cf6a8" datatype="html">
+        <source>Read More</source>
+        <target>Read More</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4361f544a83106d99b0d979cc398faedee46c59a" datatype="html">
+        <source>Join the mailing list for further news on projects and life time accelerations with Eric.</source>
+        <target>Únete a la família para obtenir más información sobre proyectos o aceleraciones con Eric</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="db5cc0c8d9d80c653f1b78ce2bfb1b41bc84ceeb" datatype="html">
+        <source>Join</source>
+        <target>Join</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2c264ce09c5a40f721907f2c7fa6194dc411411d" datatype="html">
+        <source>SPEAKING</source>
+        <target>ORACIÓN</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5f6a536644a6121cb2429734c390d7b89e57ff24" datatype="html">
+        <source>I simply did too many mistakes. We will all live around 80 years, you decide whether you want to spend your time working for living or you want to live and have an impact on the world. People will remember you for your achievements, not for the
+            money you have on the pocket.</source>
+        <target>Simplemente realicé demasiados errores. Todos vivimos alrededor de 80 años, tú decides si quieres pasar ese tiempo trabajando para vivir o si quieres vivir para tener un impacto en el mundo. La gente te recordará por lo que has conseguido, no por la cantidad de dinero que tengas en la cuenta.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bf7786b3a0e8609791fc68374511dffcf4b00cf1" datatype="html">
+        <source>
+            Since I was young I had ever been the most popular guy in the class neither the smartest or the fittest. Indeed, during my school I suffered from bullying as I was a fat guy with classes who was studying all day. Or that is what they thing. I was not
+            just a hard-working guy, I was also getting enough information in order to transform the world.
+        </source>
+        <target>
+            Desde que fui pequeño jamás he sido el chico más popular de la clase ni tampoco el más inteligente o el más deportista. Es más, durante mi infancia sufrí acoso dado que era un chico obeso con gafas que se pasaba todo el día estudiando. O eso es lo que ellos pensaban. No era únicamente un chico muy trabajador, sino que además me estaba preparando para obtener la información necesaria para cambiar el mundo.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="008789dbe8a6e5304136e4801f81258a08c1eea8" datatype="html">
+        <source>
+            All my childhood has been influenced by my aunt. She had suffered twice from breast cancer, once from tyroid cancer and right now, in 2020, she is undergoing stage IV metastatic lung cancer. Her lungs look like a cake full of small and destructive chocolate
+            bombs. She is my superhero is only one of the more than 8 million superheroes that struggle against cancer every year. I was more focused on what I could do to save her rather than taking care of myself.
+        </source>
+        <target>
+            Durante toda mi infancia mi mayor influente ha sido mi abuela, la cual ha sufrido en un par de ocasiones de cáncer de mama, una vez cáncer de tiroides y actualmente se encuentra en estadio IV metastático de cáncer de pulmón. Sus pulmones parecen un pastel lleno de diminutas y destructivas virutas de chocolate. No obstante, mi tía siempre se ha configurado como mi mayor superhéroe y lucha junto a otros más de 8 millones de superhéroes contra esta enfermedad conocida como cáncer. Durante ese periodo me encontré más centrado en intentar salvarla a ella que en cuidar de mi mismo.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e26b3a65c08d39159fc5c7b5cd5eda00eaea5b58" datatype="html">
+        <source>
+            For that reason, when I was 15 I started my first project at the same time I got tired of my 9-2 school journey without having a real impact on her life and the life of others. At that same time Google released Tensorflow libraries and I decided to make
+            use of my gained expertised in cancer and my understanding on programming in order to make something big. This initial project lately became Biop AI after 3 years. Biop AI is a UK-based company which makes usage of artificial intelligence
+            for the early-stage cancer diagnosis. Our first product focuses on suspicious bad-moles diagnosis versus the healthy ones and is currently under clinical trials.
+        </source>
+        <target>
+            Por esa razón, cuando tenía 15 años comencé mi primer proyecto al mismo tiempo que me cansé de mi viaje escolar de 9-2 sin tener un impacto real en su vida y la vida de los demás. Al mismo tiempo, Google lanzó las bibliotecas de Tensorflow y decidí hacer uso de mi experiencia adquirida en cáncer y mi comprensión de la programación para hacer algo grande. Este proyecto inicial se convirtió recientemente en Biop AI después de 3 años. Biop AI es una empresa con sede en el Reino Unido que utiliza la inteligencia artificial para el diagnóstico de cáncer en etapa inicial. Nuestro primer producto se centra en el diagnóstico de lunares malos sospechosos versus los sanos y actualmente se encuentra en ensayos clínicos.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="724786dc628e9692de88ba4bab0edb5dbad810a9" datatype="html">
+        <source>
+            Furthermore, I also co-founded another company in Spain called Nutrilieve for developing personalized diets to oncologic patients undergoing chemotherapy and radiotherapy. The idea with it is to palliate side-effects through the diet.
+        </source>
+        <target>
+            Además, también cofundé otra compañía en España llamada Nutrilieve para desarrollar dietas personalizadas para pacientes oncológicos sometidos a quimioterapia y radioterapia. La idea es paliar los efectos secundarios a través de la dieta.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dd7973ed38fb5f1454564cc2d133e9e2a9191302" datatype="html">
+        <source>
+            Looks cool right? Definitely. It is not cool just because I am fulfilling an inner passion but because it allows me to be HAPPY. Exactly, how many millions do you want in your bank account if you are not happy? Trading? Dropshipping?
+        </source>
+        <target>
+            Se ve bien, ¿verdad? Seguro. No es genial solo porque estoy cumpliendo una pasión interior, sino porque me permite ser FELIZ. Exactamente, ¿cuántos millones quieres en tu cuenta bancaria si no estás contento? ¿Comercio? ¿Dropshipping?
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="04fe212f1ef9b1939ee815f1b6c2146f68efc096" datatype="html">
+        <source>
+            What if I told you that you will be rich if you pursue your dreams instead of pursuing society dreams?
+        </source>
+        <target>
+            ¿Qué pasa si te digo que serás rico si persigues tus sueños en lugar de perseguir los sueños de la sociedad?
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5ca8702cfbf925de55ef555c01608ab4354686bf" datatype="html">
+        <source>
+            I have been in Sherm El-Sheik (Africa), Silicon Valley (US), Shenzhen (China), Shangzhuo (China), London (EU), Amsterdam (EU), and many other places without spending a single penny. Guess what? Your knowledge and what you DO is more important than anything
+            else and that is what corporations and associations value on you. Here you have some pictures 😊
+        </source>
+        <target>
+            He estado en Sherm El-Sheik (África), Silicon Valley (EE. UU.), Shenzhen (China), Shangzhuo (China), Londres (UE), Ámsterdam (UE) y muchos otros lugares sin gastar un solo centavo. ¿Adivina qué? Tu conocimiento y lo que haces es más importante que cualquier otra cosa. de lo contrario, eso es lo que las corporaciones y asociaciones valoran de usted. Aquí tienes algunas fotos 😊
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1839772060c6f68c4425ae0111e2a64ba444e816" datatype="html">
+        <source>Me at Shenzhen for the<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>International AI and Medicine Conference</source>
+        <target>Yo en Shenzhen al Congreso<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Internacional de IA y Medicina </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b30d1e5228ac867dbb739d58b335fb1a84c02882" datatype="html">
+        <source>Me at Silicon Valley<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Pitching at SharkTank Event</source>
+        <target>Yo en Silicon Valley<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>presentando en el SharkTank </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c6ecc4e545bb0cf5ae258ccc5714469b62bada60" datatype="html">
+        <source>Me at Sherm El-Sheik<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>for the World Youth Forum</source>
+        <target>En Sherm-El Sheik para el<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>World Youth Forum</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="48160eab12a38b3354bdda837e3d0ade0c9317ee" datatype="html">
+        <source>Me awarded by<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Mr. Abdel Fattah El-Sis</source>
+        <target>Honorífico ante el presidente<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Mr. Abdel Fattah El-Sis</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
     </body>
