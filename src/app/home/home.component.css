@@ -321,4 +321,12 @@
     .speaking-section .section-heading {
         padding: 1rem;
     }
+    .join-team {
+        background-size: contain;
+        background-attachment: unset;
+        height: 310px;
+    }
+    .subscription-email {
+        padding: 4rem 2rem;
+    }
 }
