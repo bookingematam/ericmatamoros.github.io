@@ -11,7 +11,7 @@ declare var $: any;
 
 export class AppComponent {
   title = 'Eric Matamoros';
-
+  languageName = '';
   languageList = [
     { code: 'en', label: 'English' },
     { code: 'es', label: 'Spanish' }
@@ -23,6 +23,12 @@ export class AppComponent {
   ) {}
 
   ngOnInit() {
+    if (this.localeId == 'en') {
+      this.languageName = 'English';
+    } else {
+      this.languageName = 'Spanish';
+    }
+    
     $(document).ready(function () {
       $(".carousel").slick({
         slidesToShow: 5,
@@ -55,6 +61,10 @@ export class AppComponent {
 
   scrollToElement(element): void {
     element.scrollIntoView({behavior: "smooth", inline: "nearest"});
+  }
+
+  redirectBookMe() {
+    this.router.navigateByUrl('/booking#testimonials');
   }
 }
 

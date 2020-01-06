@@ -10,7 +10,7 @@
         <div class="dropdown" style="float: right;margin-left: 10px;">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" 
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Select Language
+                {{ languageName }}
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="/en/">English</a>
@@ -27,7 +27,7 @@
             <a class="nav-link active" [routerLink]="['/']">Home</a>
             <a class="nav-link" [routerLink]="['/']" [fragment]="'story'">My Story</a>
             <a class="nav-link" [routerLink]="['/']" [fragment]="'speaking'">Speaking</a>
-            <a class="nav-link" href="/booking#testimonials">Testimonial</a>
+            <a class="nav-link" (click)="redirectBookMe()">Testimonial</a>
         </nav>
     </div>
 </header>
