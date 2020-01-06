@@ -65,7 +65,7 @@
                         "es": {
                             "aot": true,
                             "outputPath": "docs/es/",
-                            "baseHref": "https://ericmatamoros.com/docs/es/",
+                            "baseHref": "https://ericmatamoros.com/es/",
                             "i18nFile": "src/locale/messages.es.xlf",
                             "i18nFormat": "xlf",
                             "i18nLocale": "es",
@@ -74,7 +74,7 @@
                         "en": {
                             "aot": true,
                             "outputPath": "docs/en/",
-                            "baseHref": "https://ericmatamoros.com/docs/en/",
+                            "baseHref": "https://ericmatamoros.com/en/",
                             "i18nFile": "src/locale/messages.en.xlf",
                             "i18nFormat": "xlf",
                             "i18nLocale": "en",
