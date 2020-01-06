@@ -14,6 +14,7 @@
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
                         "outputPath": "docs",
+                        "baseHref": "/docs/en/",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
@@ -63,8 +64,8 @@
                         },
                         "es": {
                             "aot": true,
-                            "outputPath": "docs/",
-                            "baseHref": "/es/",
+                            "outputPath": "docs/es/",
+                            "baseHref": "https://ericmatamoros.com/docs/es/",
                             "i18nFile": "src/locale/messages.es.xlf",
                             "i18nFormat": "xlf",
                             "i18nLocale": "es",
@@ -72,8 +73,8 @@
                         },
                         "en": {
                             "aot": true,
-                            "outputPath": "docs/",
-                            "baseHref": "/en/",
+                            "outputPath": "docs/en/",
+                            "baseHref": "https://ericmatamoros.com/docs/en/",
                             "i18nFile": "src/locale/messages.en.xlf",
                             "i18nFormat": "xlf",
                             "i18nLocale": "en",
