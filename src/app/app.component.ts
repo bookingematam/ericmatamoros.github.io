@@ -1,5 +1,6 @@
 import { Component, LOCALE_ID, Inject } from '@angular/core';
 import { Router } from "@angular/router";
+import { ToastrService } from 'ngx-toastr';
 
 declare var $: any;
 
@@ -19,7 +20,8 @@ export class AppComponent {
 
   constructor(
     @Inject(LOCALE_ID) protected localeId: string,
-    public router: Router
+    public router: Router,
+    private toastr: ToastrService
   ) {}
 
   ngOnInit() {

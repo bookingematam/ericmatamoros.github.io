@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
+import { ToastrService } from 'ngx-toastr';
 
 declare var $: any;
 
@@ -10,7 +11,7 @@ declare var $: any;
 })
 export class BookingComponent implements OnInit {
 
-  constructor() { }
+  constructor(private toastr: ToastrService) { }
 
   ngOnInit() {
     $(".testimonial-slick").slick({
@@ -28,6 +29,7 @@ export class BookingComponent implements OnInit {
     emailjs.sendForm('contact_service', 'template_xFK9BlZQ', e.target as HTMLFormElement, 'user_XK5jxSG3P3tlkv4kRdji2')
       .then((result: EmailJSResponseStatus) => {
         console.log(result.text);
+        this.toastr.success("Mail was successfully sent.");
         $("#myform")[0].reset();
       }, (error) => {
         console.log(error.text);

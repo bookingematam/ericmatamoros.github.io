@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from "@angular/router";
 import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
+import { ToastrService } from 'ngx-toastr';
 
 declare var $: any;
 
@@ -11,7 +12,9 @@ declare var $: any;
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(
+    private router: Router,
+    private toastr: ToastrService) { }
 
   ngOnInit() {
   }
@@ -28,7 +31,7 @@ export class HomeComponent implements OnInit {
     e.preventDefault();
     emailjs.sendForm('contact_service', 'template_xFK9BlZQ_clone', e.target as HTMLFormElement, 'user_XK5jxSG3P3tlkv4kRdji2')
       .then((result: EmailJSResponseStatus) => {
-        console.log(result.text);
+        this.toastr.success("Mail was successfully sent.");
         $("#myform")[0].reset();
       }, (error) => {
         console.log(error.text);
