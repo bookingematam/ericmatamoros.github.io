@@ -71,7 +71,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<header class=\"masthead mb-auto\">\r\n    <div class=\"inner\">\r\n        <h3 class=\"masthead-brand\">\r\n            <svg preserveAspectRatio=\"xMidYMid meet\" data-bbox=\"0 0 125 264\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 125 264\" height=\"44\" width=\"20\" data-type=\"color\" role=\"img\">\r\n                <g><path fill=\"#9bcb6c\" d=\"M104.167 0H125L20.833 264H0L104.167 0z\" fill-rule=\"evenodd\" data-color=\"1\"></path></g>\r\n            </svg>\r\n            <a href=\"\" [routerLink]=\"['/']\" target=\"_self\" i18n>Eric<br/>Matamoros</a>\r\n            <span i18n>Speaker,<br/>Scientist & Writer</span>\r\n        </h3>\r\n        <ul class=\"nav nav-masthead list-social ml-5\">\r\n            <li><a href=\"https://www.linkedin.com/in/ericmatamoros/\" target=\"_blank\"><i class=\"fab fa-linkedin-in\"></i></a></li>\r\n            <li><a href=\"https://www.facebook.com/eric.matamorosmorales\" target=\"_blank\"><i class=\"fab fa-facebook-f\"></i></a></li>\r\n            <li><a href=\"https://twitter.com/ericmatamoros99\" target=\"_blank\"><i class=\"fab fa-twitter\"></i></a></li>\r\n            <li><a href=\"https://www.instagram.com/ericmatamoros/\" target=\"_blank\"><i class=\"fab fa-instagram\"></i></a></li>\r\n            <li class=\"dropdown mr-0\">\r\n                <button class=\"btn btn-secondary btn-sm dropdown-toggle ml-3\" type=\"button\" id=\"dropdownMenuButton\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                    {{ languageName }}\r\n                </button>\r\n                <div class=\"dropdown-menu dropdown-menu-right\" aria-labelledby=\"dropdownMenuButton\">\r\n                    <a class=\"dropdown-item\" href=\"/en/\">English</a>\r\n                    <a class=\"dropdown-item\" href=\"/es/\">Spanish</a>\r\n                </div>\r\n            </li>\r\n        </ul>\r\n        <nav class=\"nav nav-masthead justify-content-center\">\r\n            <a class=\"nav-link active\" [routerLink]=\"['/']\">Home</a>\r\n            <a class=\"nav-link\" [routerLink]=\"['/']\" [fragment]=\"'story'\" i18n>My Story</a>\r\n            <a class=\"nav-link\" [routerLink]=\"['/']\" [fragment]=\"'speaking'\" i18n>Speaking</a>\r\n            <a class=\"nav-link\" (click)=\"redirectBookMe()\" i18n>Testimonial</a>\r\n        </nav>\r\n    </div>\r\n</header>\r\n<router-outlet></router-outlet>\r\n<!-- Footer Section -->\r\n<footer class=\"section-footer\">\r\n    <div class=\"row\">\r\n        <div class=\"col-12 col-lg-6\">\r\n            <div class=\"footer-mail\">\r\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 125 264\" height=\"138\" width=\"65\" role=\"img\">\r\n                    <g><path fill=\"#9bcb6c\" d=\"M104.167 0H125L20.833 264H0L104.167 0z\" fill-rule=\"evenodd\" data-color=\"1\"></path></g>\r\n                </svg>\r\n                <div class=\"d-inline-block align-bottom\">\r\n                    <a href=\"mailto:booking.ematam@gmail.com\">booking.ematam@gmail.com</a>\r\n                    <ul class=\"footer-social\">\r\n                        <li><a href=\"https://www.linkedin.com/in/ericmatamoros/\" target=\"_blank\"><i class=\"fab fa-linkedin-in\"></i></a></li>\r\n                        <li><a href=\"https://www.facebook.com/eric.matamorosmorales\" target=\"_blank\"><i class=\"fab fa-facebook-f\"></i></a></li>\r\n                        <li><a href=\"https://twitter.com/ericmatamoros99\" target=\"_blank\"><i class=\"fab fa-twitter\"></i></a></li>\r\n                        <li><a href=\"https://www.instagram.com/ericmatamoros/\" target=\"_blank\"><i class=\"fab fa-instagram\"></i></a></li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n            <p class=\"footer-bottom\">&copy; 2019 by Eric Matamoros.</p>\r\n        </div>\r\n        <div class=\"col-12 col-lg-6\">\r\n            <h2 class=\"footer-right-text\" i18n>\"Are you tired of living the same day for all your life? Just contact me\"</h2>\r\n\r\n            <p class=\"footer-bottom mobile-ui\">&copy; 2019 by Eric Matamoros.</p>\r\n        </div>\r\n    </div>\r\n</footer>";
+    __webpack_exports__["default"] = "<header class=\"masthead mb-auto\">\r\n    <div class=\"inner\">\r\n        <h3 class=\"masthead-brand\">\r\n            <svg preserveAspectRatio=\"xMidYMid meet\" data-bbox=\"0 0 125 264\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 125 264\" height=\"44\" width=\"20\" data-type=\"color\" role=\"img\">\r\n                <g><path fill=\"#9bcb6c\" d=\"M104.167 0H125L20.833 264H0L104.167 0z\" fill-rule=\"evenodd\" data-color=\"1\"></path></g>\r\n            </svg>\r\n            <a href=\"\" [routerLink]=\"['/']\" target=\"_self\" i18n>Eric<br/>Matamoros</a>\r\n            <span i18n>Speaker,<br/>Scientist & Writer</span>\r\n        </h3>\r\n        <ul class=\"nav nav-masthead list-social ml-5\">\r\n            <li><a href=\"https://www.linkedin.com/in/eric-matamoros-morales-7b03b212b/\" target=\"_blank\"><i class=\"fab fa-linkedin-in\"></i></a></li>\r\n            <li><a href=\"https://www.facebook.com/eric.matamorosmorales\" target=\"_blank\"><i class=\"fab fa-facebook-f\"></i></a></li>\r\n            <li><a href=\"https://twitter.com/ericmatamoros99\" target=\"_blank\"><i class=\"fab fa-twitter\"></i></a></li>\r\n            <li><a href=\"https://www.instagram.com/ericmatamoros/\" target=\"_blank\"><i class=\"fab fa-instagram\"></i></a></li>\r\n            <li class=\"dropdown mr-0\">\r\n                <button class=\"btn btn-secondary btn-sm dropdown-toggle ml-3\" type=\"button\" id=\"dropdownMenuButton\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                    {{ languageName }}\r\n                </button>\r\n                <div class=\"dropdown-menu dropdown-menu-right\" aria-labelledby=\"dropdownMenuButton\">\r\n                    <a class=\"dropdown-item\" href=\"/en/\">English</a>\r\n                    <a class=\"dropdown-item\" href=\"/es/\">Spanish</a>\r\n                </div>\r\n            </li>\r\n        </ul>\r\n        <nav class=\"nav nav-masthead justify-content-center\">\r\n            <a class=\"nav-link active\" [routerLink]=\"['/']\">Home</a>\r\n            <a class=\"nav-link\" [routerLink]=\"['/']\" [fragment]=\"'story'\" i18n>My Story</a>\r\n            <a class=\"nav-link\" [routerLink]=\"['/']\" [fragment]=\"'speaking'\" i18n>Speaking</a>\r\n            <a class=\"nav-link\" (click)=\"redirectBookMe()\" i18n>Testimonial</a>\r\n        </nav>\r\n    </div>\r\n</header>\r\n<router-outlet></router-outlet>\r\n<!-- Footer Section -->\r\n<footer class=\"section-footer\">\r\n    <div class=\"row\">\r\n        <div class=\"col-12 col-lg-6\">\r\n            <div class=\"footer-mail\">\r\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 125 264\" height=\"138\" width=\"65\" role=\"img\">\r\n                    <g><path fill=\"#9bcb6c\" d=\"M104.167 0H125L20.833 264H0L104.167 0z\" fill-rule=\"evenodd\" data-color=\"1\"></path></g>\r\n                </svg>\r\n                <div class=\"d-inline-block align-bottom\">\r\n                    <a href=\"mailto:booking.ematam@gmail.com\">booking.ematam@gmail.com</a>\r\n                    <ul class=\"footer-social\">\r\n                        <li><a href=\"https://www.linkedin.com/in/ericmatamoros/\" target=\"_blank\"><i class=\"fab fa-linkedin-in\"></i></a></li>\r\n                        <li><a href=\"https://www.facebook.com/eric.matamorosmorales\" target=\"_blank\"><i class=\"fab fa-facebook-f\"></i></a></li>\r\n                        <li><a href=\"https://twitter.com/ericmatamoros99\" target=\"_blank\"><i class=\"fab fa-twitter\"></i></a></li>\r\n                        <li><a href=\"https://www.instagram.com/ericmatamoros/\" target=\"_blank\"><i class=\"fab fa-instagram\"></i></a></li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n            <p class=\"footer-bottom\">&copy; 2019 by Eric Matamoros.</p>\r\n        </div>\r\n        <div class=\"col-12 col-lg-6\">\r\n            <h2 class=\"footer-right-text\" i18n>\"Are you tired of living the same day for all your life? Just contact me\"</h2>\r\n\r\n            <p class=\"footer-bottom mobile-ui\">&copy; 2019 by Eric Matamoros.</p>\r\n        </div>\r\n    </div>\r\n</footer>";
     /***/
   },
 
@@ -111,7 +111,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"cover-container d-flex w-100 mx-auto flex-column\" id=\"welcome\">\r\n    <div class=\"middle-content\">\r\n        <h1 i18n>There is only one life<br>You decide what you want to do<br>Act now<br>Help others<br>Change the world</h1>\r\n        <a class=\"btn btn-bookme\" (click)=\"redirectBookMe()\" i18n>Book Me</a>\r\n    </div>\r\n</div>\r\n\r\n<!-- Section 1 -->\r\n<div class=\"about-story my-3\" id=\"story\">\r\n    <div class=\"story-about\">\r\n        <div class=\"story-title text-left\">\r\n            <h4 i18n>MY STORY</h4>\r\n        </div>\r\n        <img src=\"../assets/image/Picture2.jpg\" width=\"100%\" alt=\"ericmatamoros\" />\r\n    </div>\r\n    <div class=\"story-description\">\r\n        <svg preserveAspectRatio=\"xMidYMid meet\" data-bbox=\"0 0 125 264\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 125 264\" height=\"492\" width=\"232\" data-type=\"color\" role=\"img\">\r\n            <g><path fill=\"#9bcb6c\" d=\"M104.167 0H125L20.833 264H0L104.167 0z\" fill-rule=\"evenodd\" data-color=\"1\"></path></g>\r\n        </svg>\r\n        <h3 class=\"text-justify\" i18n>“Eric and his project Biop AI Ltd. have changed the way cancer is diagnosed towards a better society.”</h3>\r\n        <p i18n>President of Egypt – Abdel Fattah el-Sisi</p>\r\n        <h3 class=\"text-justify\" i18n>“Eric empowers others to change the world through his uniqueness and wise words. He transmits the passion on what he does and has helped many youngsters to find their way. As he says, there is only one life. You decide to die in a 9-5 full-time\r\n            job or live doing what you love.”</h3>\r\n        <p i18n>Xavier Testar – Teacher at University of Barcelona</p>\r\n    </div>\r\n</div>\r\n<div class=\"about-story story_desc my-3\">\r\n    <div class=\"story-description pt-3\">\r\n        <svg preserveAspectRatio=\"xMidYMid meet\" data-bbox=\"0 0 125 264\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 125 264\" height=\"492\" width=\"232\" data-type=\"color\" role=\"img\">\r\n            <g><path fill=\"#9bcb6c\" d=\"M104.167 0H125L20.833 264H0L104.167 0z\" fill-rule=\"evenodd\" data-color=\"1\"></path></g>\r\n        </svg>\r\n        <p class=\"text-justify\" i18n>I suffered from bullying at high school because I was overweight. Depression and video games were my only way of exit of the real world. I started Biop AI Ltd. as a way to fulfil one of my main dreams, save my aunt who is suffering from Stage\r\n            IV Metastatic Lung Cancer. During this 5-year journey I understood that there is only 1 life to spend such amount of time on getting prepared to be ready for a 9-5 job that won´t fill any little of your happiness. Live or die. Now I am the\r\n            co-founder of Biop AI and Nutrilieve as well as an international speaker with the aim to change the rules, to help the youngsters and corporates to step outside of the routine and take action by doing things that motivate them and fill the\r\n            happiness tank.\r\n        </p>\r\n        <a (click)=\"redirectAboutMe()\" class=\"btn btn-green\" i18n>Read More</a>\r\n    </div>\r\n    <div class=\"story-about\">\r\n        <img src=\"../assets/image/Picture3.jpg\" width=\"100%\" alt=\"ericmatamoros\" />\r\n    </div>\r\n</div>\r\n\r\n<!-- Section 2 -->\r\n<div class=\"join-team mt-2\"></div>\r\n<div class=\"subscription-email\">\r\n    <h2 class=\"text-center\" i18n>Join the mailing list for further news on projects and life time accelerations with Eric.</h2>\r\n    <div class=\"text-center\">\r\n        <form id=\"myform\" (submit)=\"sendEmail($event)\">\r\n            <div class=\"input-group\">\r\n                <input type=\"email\" class=\"form-control\" placeholder=\"Enter your email here*\" aria-describedby=\"button-addon2\">\r\n                <div class=\"input-group-append\">\r\n                    <button class=\"btn btn-green\" type=\"submit\" id=\"button-addon2\" i18n>Join</button>\r\n                </div>\r\n            </div>\r\n        </form>\r\n    </div>\r\n</div>\r\n\r\n<!-- Section 3 -->\r\n<div class=\"speaking-section\" id=\"speaking\">\r\n    <div class=\"section-heading\">\r\n        <h3 i18n>SPEAKING</h3>\r\n        <p i18n>I simply did too many mistakes. We will all live around 80 years, you decide whether you want to spend your time working for living or you want to live and have an impact on the world. People will remember you for your achievements, not for the\r\n            money you have on the pocket.</p>\r\n        <div class=\"row mt-4\">\r\n            <div class=\"col-md-4\">\r\n                <iframe width=\"100%\" height=\"225\" src=\"https://www.youtube.com/embed/gCMkzsfxOvU\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n                <p class=\"mt-3 text-video\">Unleash 2019 Keynote Speaker</p>\r\n            </div>\r\n            <div class=\"col-md-4\">\r\n                <iframe width=\"100%\" height=\"225\" src=\"https://www.youtube.com/embed/0g87cImGs9s\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n                <p class=\"mt-3 text-video\">Interview for The Objective</p>\r\n            </div>\r\n            <div class=\"col-md-4\">\r\n                <iframe width=\"100%\" height=\"225\" src=\"https://www.youtube.com/embed/uGtmbt8oW6A\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n                <p class=\"mt-3 text-video\">Interview for Fundació Rafael ElPino</p>\r\n            </div>\r\n            <div class=\"col-md-4 mt-3\">\r\n                <iframe width=\"100%\" height=\"225\" src=\"https://www.youtube.com/embed/ah9eGhNUfj0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n                <p class=\"mt-3 text-video\">World Youth Forum - Spanish Ambassador</p>\r\n            </div>\r\n            <div class=\"col-12 text-center\">\r\n                <a class=\"btn btn-green mt-3\" (click)=\"redirectBookMe()\" i18n>Book Me</a>\r\n            </div>\r\n        </div>\r\n        <div class=\"featured-section\">\r\n            <h2>AS FEATURED IN</h2>\r\n            <div class=\"carousel\">\r\n                <div class=\"slide px-3\">\r\n                    <img src=\"../assets/image/huawei.png\" alt=\"\" width=\"100%\">\r\n                </div>\r\n                <div class=\"slide px-3\">\r\n                    <img src=\"../assets/image/lavanguardia.png\" alt=\"\" width=\"100%\">\r\n                </div>\r\n                <div class=\"slide px-3\">\r\n                    <img src=\"../assets/image/world-youth-form.png\" alt=\"\" width=\"100%\">\r\n                </div>\r\n                <div class=\"slide px-3\">\r\n                    <img src=\"../assets/image/ara.png\" alt=\"\" width=\"100%\">\r\n                </div>\r\n                <div class=\"slide px-3\">\r\n                    <img src=\"../assets/image/tedx.png\" alt=\"\" width=\"100%\">\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<div class=\"cover-container d-flex w-100 mx-auto flex-column\" id=\"welcome\">\r\n    <div class=\"middle-content\">\r\n        <h1 i18n>There is only one life<br>You decide what you want to do<br>Act now<br>Help others<br>Change the world</h1>\r\n        <a class=\"btn btn-bookme\" (click)=\"redirectBookMe()\" i18n>Book Me</a>\r\n    </div>\r\n</div>\r\n\r\n<!-- Section 1 -->\r\n<div class=\"about-story my-3\" id=\"story\">\r\n    <div class=\"story-about\">\r\n        <div class=\"story-title text-left\">\r\n            <h4 i18n>MY STORY</h4>\r\n        </div>\r\n        <img src=\"../assets/image/Picture2.jpg\" width=\"100%\" alt=\"ericmatamoros\" />\r\n    </div>\r\n    <div class=\"story-description\">\r\n        <svg preserveAspectRatio=\"xMidYMid meet\" data-bbox=\"0 0 125 264\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 125 264\" height=\"492\" width=\"232\" data-type=\"color\" role=\"img\">\r\n            <g><path fill=\"#9bcb6c\" d=\"M104.167 0H125L20.833 264H0L104.167 0z\" fill-rule=\"evenodd\" data-color=\"1\"></path></g>\r\n        </svg>\r\n        <h3 class=\"text-justify\" i18n>“Eric and his project Biop AI Ltd. have changed the way cancer is diagnosed towards a better society.”</h3>\r\n        <p i18n>President of Egypt – Abdel Fattah el-Sisi</p>\r\n        <h3 class=\"text-justify\" i18n>“Eric empowers others to change the world through his uniqueness and wise words. He transmits the passion on what he does and has helped many youngsters to find their way. As he says, there is only one life. You decide to die in a 9-5 full-time\r\n            job or live doing what you love.”</h3>\r\n        <p i18n>Xavier Testar – Teacher at University of Barcelona</p>\r\n    </div>\r\n</div>\r\n<div class=\"about-story story_desc my-3\">\r\n    <div class=\"story-description pt-3\">\r\n        <svg preserveAspectRatio=\"xMidYMid meet\" data-bbox=\"0 0 125 264\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 125 264\" height=\"492\" width=\"232\" data-type=\"color\" role=\"img\">\r\n            <g><path fill=\"#9bcb6c\" d=\"M104.167 0H125L20.833 264H0L104.167 0z\" fill-rule=\"evenodd\" data-color=\"1\"></path></g>\r\n        </svg>\r\n        <p class=\"text-justify\" i18n>I suffered from bullying at high school because I was overweight. Depression and video games were my only way of exit of the real world. I started Biop AI Ltd. as a way to fulfil one of my main dreams, save my aunt who is suffering from Stage\r\n            IV Metastatic Lung Cancer. During this 5-year journey I understood that there is only 1 life to spend such amount of time on getting prepared to be ready for a 9-5 job that won´t fill any little of your happiness. Live or die. Now I am the\r\n            co-founder of Biop AI and Nutrilieve as well as an international speaker with the aim to change the rules, to help the youngsters and corporates to step outside of the routine and take action by doing things that motivate them and fill the\r\n            happiness tank.\r\n        </p>\r\n        <a (click)=\"redirectAboutMe()\" class=\"btn btn-green\" i18n>Read More</a>\r\n    </div>\r\n    <div class=\"story-about\">\r\n        <img src=\"../assets/image/Picture3.jpg\" width=\"100%\" alt=\"ericmatamoros\" />\r\n    </div>\r\n</div>\r\n\r\n<!-- Section 2 -->\r\n<div class=\"join-team mt-2\"></div>\r\n<div class=\"subscription-email\">\r\n    <h2 class=\"text-center\" i18n>Join the mailing list for further news on projects and life time accelerations with Eric.</h2>\r\n    <div class=\"text-center\">\r\n        <form id=\"myform\" (submit)=\"sendEmail($event)\">\r\n            <div class=\"input-group\">\r\n                <input type=\"email\" name=\"from_email\" class=\"form-control\" placeholder=\"Enter your email here*\" aria-describedby=\"button-addon2\">\r\n                <div class=\"input-group-append\">\r\n                    <button class=\"btn btn-green\" type=\"submit\" id=\"button-addon2\" i18n>Join</button>\r\n                </div>\r\n            </div>\r\n        </form>\r\n    </div>\r\n</div>\r\n\r\n<!-- Section 3 -->\r\n<div class=\"speaking-section\" id=\"speaking\">\r\n    <div class=\"section-heading\">\r\n        <h3 i18n>SPEAKING</h3>\r\n        <p i18n>I simply did too many mistakes. We will all live around 80 years, you decide whether you want to spend your time working for living or you want to live and have an impact on the world. People will remember you for your achievements, not for the\r\n            money you have on the pocket.</p>\r\n        <div class=\"row mt-4\">\r\n            <div class=\"col-md-4\">\r\n                <iframe width=\"100%\" height=\"225\" src=\"https://www.youtube.com/embed/gCMkzsfxOvU\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n                <p class=\"mt-3 text-video\">Unleash 2019 Keynote Speaker</p>\r\n            </div>\r\n            <div class=\"col-md-4\">\r\n                <iframe width=\"100%\" height=\"225\" src=\"https://www.youtube.com/embed/0g87cImGs9s\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n                <p class=\"mt-3 text-video\">Interview for The Objective</p>\r\n            </div>\r\n            <div class=\"col-md-4\">\r\n                <iframe width=\"100%\" height=\"225\" src=\"https://www.youtube.com/embed/uGtmbt8oW6A\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n                <p class=\"mt-3 text-video\">Interview for Fundació Rafael ElPino</p>\r\n            </div>\r\n            <div class=\"col-md-4 mt-3\">\r\n                <iframe width=\"100%\" height=\"225\" src=\"https://www.youtube.com/embed/ah9eGhNUfj0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n                <p class=\"mt-3 text-video\">World Youth Forum - Spanish Ambassador</p>\r\n            </div>\r\n            <div class=\"col-12 text-center\">\r\n                <a class=\"btn btn-green mt-3\" (click)=\"redirectBookMe()\" i18n>Book Me</a>\r\n            </div>\r\n        </div>\r\n        <div class=\"featured-section\">\r\n            <h2>AS FEATURED IN</h2>\r\n            <div class=\"carousel\">\r\n                <div class=\"slide px-3\">\r\n                    <img src=\"../assets/image/huawei.png\" alt=\"\" width=\"100%\">\r\n                </div>\r\n                <div class=\"slide px-3\">\r\n                    <img src=\"../assets/image/lavanguardia.png\" alt=\"\" width=\"100%\">\r\n                </div>\r\n                <div class=\"slide px-3\">\r\n                    <img src=\"../assets/image/world-youth-form.png\" alt=\"\" width=\"100%\">\r\n                </div>\r\n                <div class=\"slide px-3\">\r\n                    <img src=\"../assets/image/ara.png\" alt=\"\" width=\"100%\">\r\n                </div>\r\n                <div class=\"slide px-3\">\r\n                    <img src=\"../assets/image/tedx.png\" alt=\"\" width=\"100%\">\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
     /***/
   },
 
@@ -912,15 +912,22 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/router */
     "./node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
+
+
+    var ngx_toastr__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ngx-toastr */
+    "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 
     var AppComponent =
     /*#__PURE__*/
     function () {
-      function AppComponent(localeId, router) {
+      function AppComponent(localeId, router, toastr) {
         _classCallCheck(this, AppComponent);
 
         this.localeId = localeId;
         this.router = router;
+        this.toastr = toastr;
         this.title = 'Eric Matamoros';
         this.languageName = '';
         this.languageList = [{
@@ -996,6 +1003,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }]
       }, {
         type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]
+      }, {
+        type: ngx_toastr__WEBPACK_IMPORTED_MODULE_3__["ToastrService"]
       }];
     };
 
@@ -1078,6 +1087,18 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _about_about_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! ./about/about.component */
     "./src/app/about/about.component.ts");
+    /* harmony import */
+
+
+    var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    /*! @angular/platform-browser/animations */
+    "./node_modules/@angular/platform-browser/fesm2015/animations.js");
+    /* harmony import */
+
+
+    var ngx_toastr__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    /*! ngx-toastr */
+    "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
@@ -1085,7 +1106,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
       declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _booking_booking_component__WEBPACK_IMPORTED_MODULE_5__["BookingComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_7__["AboutComponent"]],
-      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"]],
+      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__["BrowserAnimationsModule"], ngx_toastr__WEBPACK_IMPORTED_MODULE_9__["ToastrModule"].forRoot()],
       providers: [],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
     })], AppModule);
@@ -1155,12 +1176,20 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var emailjs_com__WEBPACK_IMPORTED_MODULE_2___default =
     /*#__PURE__*/
     __webpack_require__.n(emailjs_com__WEBPACK_IMPORTED_MODULE_2__);
+    /* harmony import */
+
+
+    var ngx_toastr__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ngx-toastr */
+    "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 
     var BookingComponent =
     /*#__PURE__*/
     function () {
-      function BookingComponent() {
+      function BookingComponent(toastr) {
         _classCallCheck(this, BookingComponent);
+
+        this.toastr = toastr;
       }
 
       _createClass(BookingComponent, [{
@@ -1178,9 +1207,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "sendEmail",
         value: function sendEmail(e) {
+          var _this = this;
+
           e.preventDefault();
           emailjs_com__WEBPACK_IMPORTED_MODULE_2___default.a.sendForm('contact_service', 'template_xFK9BlZQ', e.target, 'user_XK5jxSG3P3tlkv4kRdji2').then(function (result) {
             console.log(result.text);
+
+            _this.toastr.success("Mail was successfully sent.");
+
             $("#myform")[0].reset();
           }, function (error) {
             console.log(error.text);
@@ -1190,6 +1224,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
       return BookingComponent;
     }();
+
+    BookingComponent.ctorParameters = function () {
+      return [{
+        type: ngx_toastr__WEBPACK_IMPORTED_MODULE_3__["ToastrService"]
+      }];
+    };
 
     BookingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'app-booking',
@@ -1272,14 +1312,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var emailjs_com__WEBPACK_IMPORTED_MODULE_3___default =
     /*#__PURE__*/
     __webpack_require__.n(emailjs_com__WEBPACK_IMPORTED_MODULE_3__);
+    /* harmony import */
+
+
+    var ngx_toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ngx-toastr */
+    "./node_modules/ngx-toastr/fesm2015/ngx-toastr.js");
 
     var HomeComponent =
     /*#__PURE__*/
     function () {
-      function HomeComponent(router) {
+      function HomeComponent(router, toastr) {
         _classCallCheck(this, HomeComponent);
 
         this.router = router;
+        this.toastr = toastr;
       }
 
       _createClass(HomeComponent, [{
@@ -1298,9 +1345,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "sendEmail",
         value: function sendEmail(e) {
+          var _this2 = this;
+
           e.preventDefault();
           emailjs_com__WEBPACK_IMPORTED_MODULE_3___default.a.sendForm('contact_service', 'template_xFK9BlZQ_clone', e.target, 'user_XK5jxSG3P3tlkv4kRdji2').then(function (result) {
-            console.log(result.text);
+            _this2.toastr.success("Mail was successfully sent.");
+
             $("#myform")[0].reset();
           }, function (error) {
             console.log(error.text);
@@ -1314,6 +1364,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     HomeComponent.ctorParameters = function () {
       return [{
         type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]
+      }, {
+        type: ngx_toastr__WEBPACK_IMPORTED_MODULE_4__["ToastrService"]
       }];
     };
 
