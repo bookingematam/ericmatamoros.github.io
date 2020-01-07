@@ -25,9 +25,10 @@ export class BookingComponent implements OnInit {
 
   public sendEmail(e: Event) {
     e.preventDefault();
-    emailjs.sendForm('contact_service', 'template_hixVfBEB', e.target as HTMLFormElement, 'user_XK5jxSG3P3tlkv4kRdji2')
+    emailjs.sendForm('contact_service', 'template_xFK9BlZQ', e.target as HTMLFormElement, 'user_XK5jxSG3P3tlkv4kRdji2')
       .then((result: EmailJSResponseStatus) => {
         console.log(result.text);
+        $("#myform")[0].reset();
       }, (error) => {
         console.log(error.text);
       });
